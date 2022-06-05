@@ -1,0 +1,16 @@
+{
+  "name": "Forecast-Backend",
+  "version": "0.0.0",
+  "main": "app.js",
+  "author": "JustATin555 <usingenglish.2014@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.740.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "develop": "nodemon app.js",
+    "start": "node app.js"
+  }
+}

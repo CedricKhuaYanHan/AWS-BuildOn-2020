@@ -1,0 +1,19 @@
+{
+  "name": "noobmaster69-Backend",
+  "version": "0.0.6",
+  "main": "app.js",
+  "author": "JustATin555 <usingenglish.2014@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.736.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  },
+  "scripts": {
+    "develop": "nodemon app.js",
+    "start": "node app.js"
+  }
+}

@@ -1,0 +1,63 @@
+.route_container {
+    position: relative;
+    height: 64px;
+    margin: auto;
+    display: flex;
+}
+
+.database_route {
+  width: 100%;
+  background-color: #F8F9F9;
+  display: absolute;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Rubik-Light";
+  padding-top: 1.25vh;
+  margin: 10px;
+  border: solid 1px #9D2235;
+  vertical-align: center;
+  font-size: 2em;
+  color: #9D2235;
+  height: 64px;
+  text-decoration: none;
+}
+
+.database_route:hover {
+    background-color: #9D2235;
+    color: white;
+}
+
+.level_container {
+    position: relative;
+    height: 64px;
+    margin: auto;
+    display: flex;
+    margin-top: 16px;
+}
+
+.level_route {
+  width: 100%;
+  background-color: #F8F9F9;
+  display: absolute;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Rubik-Light";
+  padding-top: 1.25vh;
+  margin: 10px;
+  border: solid 1px #9D2235;
+  vertical-align: center;
+  font-size: 2em;
+  color: #9D2235;
+  height: 64px;
+  text-decoration: none;
+}
+
+.level_route:hover {
+    background-color: #9D2235;
+    color: white;
+}
+
+.selected {
+    background: #9D2235;
+    color: white;
+}

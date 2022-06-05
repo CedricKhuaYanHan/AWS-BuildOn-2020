@@ -1,0 +1,51 @@
+#headerbar {
+  height: 64px;
+  width: 100%;
+  border-bottom: lightgray solid 1px;
+  display: flex;
+  flex-direction: row;
+} #searchbar {
+  height: 100%;
+  width: 80%;
+  border-right: lightgray solid 1px;
+  display: flex;
+  padding-left: 24px;
+  align-items: center;
+} #search_input {
+  border: 0;
+  outline: none;
+  font-family: "Rubik-Light";
+} #search_icon {
+  color: grey;
+} #notifications_div {
+  height: 100%;
+  width: 5%;
+  border-right: lightgray solid 1px;
+  display: flex;
+  justify-content: center;
+} #notifications_icon {
+  color: grey;
+  align-self: center;
+  height: 48px;
+  width: 48px;
+} #profile_div {
+  height: 100%;
+  width: 15%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding-left: 12px;
+} #profile_icon {
+  align-self: center;
+  color: grey;
+  height: 48px;
+  width: 48px;
+} #profile_name {
+  font-family: "Rubik-Light";
+  color: grey;
+  align-self: center;
+  margin-left: 16px;
+} #dropdown_icon {
+  color: grey;
+  align-self: center;
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: light;
+  src: url("./../../../assets/Rubik/Rubik-Light.ttf");
+} #sidebar {
+  height: 100%;
+  width: 20%;
+  /* background-color: black; */
+  border-right: lightgray solid 1px;
+} #logo_div {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  border-bottom: lightgray solid 1px;
+} #logo {
+  height: 80%;
+  align-self: center;
+}

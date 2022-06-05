@@ -1,0 +1,35 @@
+#route_container {
+    position: relative;
+    height: 64px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.route {
+  width: 45%;
+  background-color: #F8F9F9;
+  /* display: absolute; */
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Rubik-Light";
+  padding-top: 1.25vh;
+  margin: 2.5%;
+  border: solid 1px #9D2235;
+  vertical-align: center;
+  font-size: 2em;
+  color: #9D2235;
+  height: 64px;
+  text-decoration: none;
+  outline: none;
+}
+
+.route:hover {
+    background-color: #9D2235;
+    color: white;
+}
+
+.selected {
+    background: #9D2235;
+    color: white;
+}

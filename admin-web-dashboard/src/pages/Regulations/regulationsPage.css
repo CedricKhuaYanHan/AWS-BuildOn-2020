@@ -1,0 +1,7 @@
+.MuiPickersToolbar-toolbar, .MuiPickersClockPointer-pointer, .MuiPickersClock-pin, .MuiPickersClockPointer-thumb, .PrivateValueLabel-circle-4, .MuiButtonBase-root {
+  background-color: #9D2235 !important;
+} .MuiPickersClockPointer-thumb {
+  border: 14px solid #9D2235 !important
+} #discrete-slider, .MuiSlider-root {
+  color: #9D2235 !important;
+}

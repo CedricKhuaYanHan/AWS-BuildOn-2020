@@ -1,0 +1,14 @@
+#sidebar_item_selected {
+  height: 64px;
+  width: 100%;
+  background-color: #F8F9F9;
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 24px;
+  border-left: solid 8px #9D2235;
+} #item_name_selected {
+  align-self: center;
+  font-family: "Rubik-Light";
+  /* color: black; */
+  color: #9D2235;
+}

@@ -1,0 +1,13 @@
+#sidebar_item {
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 24px;
+} #item_name {
+  align-self: center;
+  font-family: "Rubik-Light";
+  /* color: black; */
+  color: #9D2235;
+}
